@@ -11,10 +11,11 @@ Makes sure that you also have pip and pip3 installed.
 
 
 Paste these into your terminal or command  line:    sudo su
-                          git clone https://github.com/Khutord435/MultiTool/
-                          cd MultiTool
-                          pip3 install -r requirements.txt
-                          
+&& git clone https://github.com/Khutord435/MultiTool/
+&& cd MultiTool
+&& pip3 install -r requirements.txt
+# How to get the token:
+Go to https://rapidapi.com/community/api/open-weather-map and make an account by clicking the SUBSCRIBE TO TEST button. follow the instructions, and after you complete that,take your api key and replace it with mine in the code.
 
 
 
