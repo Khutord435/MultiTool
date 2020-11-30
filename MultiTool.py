@@ -320,7 +320,6 @@ Your choice:  """)
                             continue
                         else:
                             print("[+] Password found:", word.decode().strip())
-                            exit(0)
                             hack_menu()
                 print("[!] Password not found, try other wordlist.")
                 
