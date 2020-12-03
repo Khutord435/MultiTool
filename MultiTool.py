@@ -446,11 +446,11 @@ Your choice:  """)
                 
                 try:
                     while True:
-                    scapy.send(packet1, verbose=False)
-                    scapy.send(packet2, verbose=False)
-                    sent_packets_count = sent_packets_count + 2
-                    print("\r[+] Packets sent: " + str(sent_packets_count), end="")
-                    time.sleep(2)
+                        scapy.send(packet1, verbose=False)
+                        scapy.send(packet2, verbose=False)
+                        sent_packets_count = sent_packets_count + 2
+                        print("\r[+] Packets sent: " + str(sent_packets_count), end="")
+                        time.sleep(2)
                     
                 except KeyboardInterrupt:
                     print("\n[+] Detected CTRL + C ............ Resetting ARP tables... Please wait")
