@@ -366,7 +366,7 @@ Your choice:  """)
                                                 print("\n\n[+]Possible username and passowrd --> " + str(load) + "\n\n")
                                         
                                  
-                        sniff(what_inter)
+                            sniff(what_inter)
                         
                         except KeyboardInterrupt:
                             print("\n[+] Detected CTRL + C ......... Quitting ")
@@ -381,7 +381,7 @@ Your choice:  """)
                                 if packet.haslayer(http.HTTPRequest):
                                     print(packet.load)
                          
-                        sniff(what_inter)
+                            sniff(what_inter)
                         
                         except KeyboardInterrupt:
                             print("\n[+] Detected CTRL + C ......... Quitting ")
